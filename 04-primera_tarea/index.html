@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Mi Web</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Formulario de Registro</h1>
+	 <form action="/procesa_formulario.php" method="get"> 
+	 <label>Nombres:</label> <input type="text" name="Nombre:" placeholder="Ingrese su nombre"> <br> 
+	<br> <label>Apellidos:</label> <input type="text" name="Apellidos:" placeholder="Ingrese su apellido"> <br>
+	<br> <label>Fecha de Nacimiento: </label><input type="number" name="Dia" placeholder="Dia" min="1" max="31"> / <input type="number" name="mes" placeholder="Mes" min="1" max="12">/ <input type="number" name="año" placeholder="Año" min="1990" max="1999"> <br>
+	<br> <label>Sexo:</label> <input type="radio" name=" Sexo" value="hombre"> hombre  <input type="radio" name="Sexo" value="femenino"> femenino <br>
+	<br> <label>correo </label><input type="email" name="email"> <br>
+
+
+	<br> <input type="submit" name="Enviar" value="Enviar"> <input type="reset" name="Cancelar" value="Cancelar">
+	</form>	
+
+
+
+
+</body>
+</html>

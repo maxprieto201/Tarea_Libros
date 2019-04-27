@@ -1,0 +1,28 @@
+.row{
+	margin-top: 40px;
+}
+#pa{
+	font-family: helvetica;
+}
+#img{
+	border-radius: 50%;
+}
+a{
+	margin:14px;
+}
+.espacio{
+	margin-left: 10px;
+}
+body{
+	background:url("../img/Kakashi.png");
+	background-size: cover;
+}
+.info{
+	text-align: right;
+}
+#collapseTwo{
+	font-family: times new roman ;
+}
+#collapseThree{
+	font-family: vendana;
+}

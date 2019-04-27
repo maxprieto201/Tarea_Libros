@@ -1,0 +1,17 @@
+body{
+	background: gray;
+	
+}
+#p1{
+	font-family: helvetica;
+}
+.p2{
+	font-family: calibri;
+	text-align: right;
+}
+	h1{
+		color: red;
+	}
+	div{
+		text-align: center;
+	}

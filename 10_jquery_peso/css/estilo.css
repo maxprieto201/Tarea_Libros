@@ -1,0 +1,44 @@
+body{
+	width: 80%;
+	margin: 0 auto; /*centrado de la pagina*/
+	font-family: "helvetica";
+	padding-left: 50px; /*margen interno izquierdo*/
+	padding-right: 50px; /*margen interno derecho*/
+	background-color: rgba(50,82,25,0.4);
+}
+
+h1{
+	text-align: center;
+	color: gray;
+}
+p{
+	text-align: justify;
+}
+h2{
+	text-align: center;
+}
+img{
+	border-radius: 15px 15px 0px 0px;
+
+}
+.tarjeta {
+	border: solid 1px #ccc;
+	text-align: center;
+	border-radius: 15px;
+	box-shadow: 5px 0px 10px 9px gray;
+	margin: 50px;
+	
+}
+.contenedor{
+	display: flex;
+	justify-content: space-around;
+}	
+.card p{
+	text-align: center;
+}
+button{
+	background-color: #25E660;
+	border: none;
+	width: 60px;
+	height: 20px;
+}

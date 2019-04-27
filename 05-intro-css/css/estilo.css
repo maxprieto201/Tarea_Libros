@@ -1,0 +1,39 @@
+h1{
+	text-shadow: 2px 2px 20px red;
+	text-align: center;
+	font-size: 5em;
+}
+
+
+/* 
+	propiedad background = fondo
+	propiedad color = color de texto
+ */
+p{
+	/*background: black;*/
+	color: black;
+
+	/* el borde necesita 3 parámetros: "el grosor(px), el tipo y el color" */
+	border: 5px solid red;
+	border-top: 8px double orange;
+	border-right: 6px groove pink;
+	border-left: 5px double violet;
+	border-bottom: 4px ridge ;
+
+	/* Los márgenes sirven para dar espacio exterior  a los elementos */
+	margin: 0px 50px 0px 100px;
+	padding: 30px ; 
+	border-radius: 50px 0px 50px 0px ;
+
+}
+/*
+ Background Tambien sirve para imagenes
+ Background-size sirve para ajustar el fondo a la pantalla
+*/
+
+
+body{
+	
+	background: url("../img/naru.png");
+	background-size: cover;: 
+}
